@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Task {
     private String id;
-    private String ownerId;
+    private User owner;
     private String description;
     private Date dateCreated;
     private boolean completed;
@@ -13,9 +13,9 @@ public class Task {
     public Task() {
     }
 
-    public Task(String id, String ownerId, String description, Date dateCreated, boolean completed) {
+    public Task(String id, User owner, String description, Date dateCreated, boolean completed) {
         this.id = id;
-        this.ownerId = ownerId;
+        this.owner = owner;
         this.description = description;
         this.dateCreated = dateCreated;
         this.completed = completed;
@@ -29,12 +29,12 @@ public class Task {
         this.id = id;
     }
 
-    public String getOwnerId() {
-        return ownerId;
+    public User getOwner() {
+        return owner;
     }
 
-    public void setOwnerId(String ownerId) {
-        this.ownerId = ownerId;
+    public void setOwner(User owner) {
+        this.owner = owner;
     }
 
     public String getDescription() {
@@ -59,5 +59,12 @@ public class Task {
 
     public void setCompleted(boolean completed) {
         this.completed = completed;
+    }
+
+    public boolean is(Task task){
+        if (this.id.equals(task.getId())){
+            return true;
+        }
+        return false;
     }
 }
