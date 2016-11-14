@@ -7,6 +7,7 @@ import restAPI.models.Task;
 import restAPI.models.User;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @RequestMapping(value = "/tasks")
@@ -48,6 +49,9 @@ public class TaskController {
             }
             if (count == this.allTasks.size()){
                 task.setId(getNewId());
+                if (task.getDateCreated() == null) {
+                    task.setDateCreated(new Date());
+                }
                 this.allTasks.add(task);
                 tasksCreated++;
             }
