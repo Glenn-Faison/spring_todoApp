@@ -37,7 +37,7 @@ public class TaskController {
 
     @RequestMapping(value = "/", method = RequestMethod.POST)
     @ResponseBody
-    public ResponseEntity<String> addUser(@RequestBody List<Task> tasks) {
+    public ResponseEntity<String> addTasks(@RequestBody List<Task> tasks) {
         int tasksCreated = 0;
         for (Task task : tasks) {
             int count = 0;
@@ -79,7 +79,8 @@ public class TaskController {
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Task getTaskById(@PathVariable("id") String id) {
+    @ResponseBody
+    public ResponseEntity<Task> getTaskById(@PathVariable("id") String id) {
         Task returnValue = null;
         for (Task task : this.allTasks) {
             if (task.getId().equals(id)) {
@@ -87,7 +88,7 @@ public class TaskController {
                 break;
             }
         }
-        return returnValue;
+        return new ResponseEntity<Task>(returnValue, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)

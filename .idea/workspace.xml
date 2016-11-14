@@ -25,18 +25,19 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/controllers/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="94" column="102" selection-start-line="94" selection-start-column="102" selection-end-line="94" selection-end-column="102" />
+            <state relative-caret-position="362">
+              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#editUserInfo#0;class#UserController#0" expanded="false" />
                 <element signature="method#getNewId#0;class#UserController#0" expanded="false" />
                 <element signature="method#UserController#0;class#UserController#0" expanded="false" />
                 <element signature="method#getUsers#0;class#UserController#0" expanded="false" />
-                <element signature="method#addUser#0;class#UserController#0" expanded="false" />
+                <element signature="method#addUsers#0;class#UserController#0" expanded="false" />
                 <element signature="method#getUserById#0;class#UserController#0" expanded="false" />
-                <element signature="e#3086#3146#0" expanded="false" />
-                <element signature="e#3538#3601#0" expanded="false" />
+                <element signature="e#3144#3204#0" expanded="false" />
+                <element signature="method#editUser#0;class#UserController#0" expanded="false" />
+                <element signature="e#3655#3718#0" expanded="false" />
                 <element signature="method#deleteUser#0;class#UserController#0" expanded="false" />
               </folding>
             </state>
@@ -56,26 +57,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/controllers/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            <state relative-caret-position="347">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#editTaskInfo#0;class#TaskController#0" expanded="false" />
                 <element signature="method#getNewId#0;class#TaskController#0" expanded="false" />
                 <element signature="e#1039#1096#0" expanded="false" />
-                <element signature="method#addUser#0;class#TaskController#0" expanded="false" />
+                <element signature="method#addTasks#0;class#TaskController#0" expanded="false" />
                 <element signature="method#getTasks#0;class#TaskController#0" expanded="false" />
+                <element signature="e#2692#2752#0" expanded="false" />
                 <element signature="method#getTaskById#0;class#TaskController#0" expanded="false" />
+                <element signature="e#3129#3189#0" expanded="false" />
                 <element signature="method#editTask#0;class#TaskController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -114,8 +117,8 @@
         <option value="$PROJECT_DIR$/src/main/java/restAPI/controllers/GreetingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/restAPI/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/restAPI/models/Task.java" />
-        <option value="$PROJECT_DIR$/src/main/java/restAPI/controllers/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/restAPI/controllers/TaskController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/restAPI/controllers/UserController.java" />
       </list>
     </option>
   </component>
@@ -656,10 +659,11 @@
             <element signature="method#getNewId#0;class#UserController#0" expanded="false" />
             <element signature="method#UserController#0;class#UserController#0" expanded="false" />
             <element signature="method#getUsers#0;class#UserController#0" expanded="false" />
-            <element signature="method#addUser#0;class#UserController#0" expanded="false" />
+            <element signature="method#addUsers#0;class#UserController#0" expanded="false" />
             <element signature="method#getUserById#0;class#UserController#0" expanded="false" />
-            <element signature="e#3086#3146#0" expanded="false" />
-            <element signature="e#3538#3601#0" expanded="false" />
+            <element signature="e#3144#3204#0" expanded="false" />
+            <element signature="method#editUser#0;class#UserController#0" expanded="false" />
+            <element signature="e#3655#3718#0" expanded="false" />
             <element signature="method#deleteUser#0;class#UserController#0" expanded="false" />
           </folding>
         </state>
@@ -740,6 +744,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="method#User#0;class#User#0" expanded="false" />
+            <element signature="method#User#1;class#User#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/models/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
@@ -753,18 +770,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/controllers/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="94" column="102" selection-start-line="94" selection-start-column="102" selection-end-line="94" selection-end-column="102" />
+        <state relative-caret-position="362">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#editUserInfo#0;class#UserController#0" expanded="false" />
             <element signature="method#getNewId#0;class#UserController#0" expanded="false" />
             <element signature="method#UserController#0;class#UserController#0" expanded="false" />
             <element signature="method#getUsers#0;class#UserController#0" expanded="false" />
-            <element signature="method#addUser#0;class#UserController#0" expanded="false" />
+            <element signature="method#addUsers#0;class#UserController#0" expanded="false" />
             <element signature="method#getUserById#0;class#UserController#0" expanded="false" />
-            <element signature="e#3086#3146#0" expanded="false" />
-            <element signature="e#3538#3601#0" expanded="false" />
+            <element signature="e#3144#3204#0" expanded="false" />
+            <element signature="method#editUser#0;class#UserController#0" expanded="false" />
+            <element signature="e#3655#3718#0" expanded="false" />
             <element signature="method#deleteUser#0;class#UserController#0" expanded="false" />
           </folding>
         </state>
@@ -772,30 +790,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/controllers/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="347">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#editTaskInfo#0;class#TaskController#0" expanded="false" />
             <element signature="method#getNewId#0;class#TaskController#0" expanded="false" />
             <element signature="e#1039#1096#0" expanded="false" />
-            <element signature="method#addUser#0;class#TaskController#0" expanded="false" />
+            <element signature="method#addTasks#0;class#TaskController#0" expanded="false" />
             <element signature="method#getTasks#0;class#TaskController#0" expanded="false" />
+            <element signature="e#2692#2752#0" expanded="false" />
             <element signature="method#getTaskById#0;class#TaskController#0" expanded="false" />
+            <element signature="e#3129#3189#0" expanded="false" />
             <element signature="method#editTask#0;class#TaskController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="method#User#0;class#User#0" expanded="false" />
-            <element signature="method#User#1;class#User#0" expanded="false" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
           </folding>
         </state>
       </provider>

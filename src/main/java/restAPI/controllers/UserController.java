@@ -60,7 +60,7 @@ public class UserController {
 
     @RequestMapping(value = "/", method = RequestMethod.POST)
     @ResponseBody
-    public ResponseEntity<String> addUser(@RequestBody List<User> newUsers) {
+    public ResponseEntity<String> addUsers(@RequestBody List<User> newUsers) {
         int usersCreated = 0;
         for (User newUser : newUsers) {
             int count = 0;
@@ -79,7 +79,7 @@ public class UserController {
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public User getUserById(@PathVariable(value = "id") String id) {
+    public ResponseEntity<User> getUserById(@PathVariable(value = "id") String id) {
         User returnValue = null;
         for (User user : this.allUsers) {
             if (user.getId().equals(id)) {
@@ -87,19 +87,21 @@ public class UserController {
                 break;
             }
         }
-        return returnValue;
+        return new ResponseEntity<User>(returnValue, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
     @ResponseBody
-    public ResponseEntity<String> editUser(@PathVariable("id") String id, @RequestBody User newUser) {
+    public ResponseEntity<User> editUser(@PathVariable("id") String id, @RequestBody User newUser) {
+        User returnValue = null;
         for (User user : this.allUsers) {
             if (user.getId().equals(id)) {
                 editUserInfo(user, newUser);
+                returnValue = user;
                 break;
             }
         }
-        return new ResponseEntity<String>("\nUser Edited\n", HttpStatus.CREATED);
+        return new ResponseEntity<User>(returnValue, HttpStatus.CREATED);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
