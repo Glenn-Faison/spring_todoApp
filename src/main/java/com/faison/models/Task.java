@@ -20,7 +20,7 @@ public class Task {
 
     private Date alertDate;
 
-    @OneToOne(optional = false)
+    @ManyToOne(optional = false)
     private User owner;
 
     public Task() {
