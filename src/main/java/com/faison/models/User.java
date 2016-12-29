@@ -2,6 +2,7 @@ package com.faison.models;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 
 @Entity
 @Table(name = "users", schema = "spring_todo")
@@ -23,9 +24,8 @@ public class User {
     @Column(nullable = false, unique = true)
     private String username;
 
-    /*@OneToMany(mappedBy = "users", orphanRemoval = true, cascade = CascadeType.ALL)
-    @JoinColumn(table = "tasks", referencedColumnName = "taskId")
-    private List<String> taskIdList;*/
+    @OneToMany(orphanRemoval = true, cascade = CascadeType.ALL)
+    private List<Task> taskList;
 
     @NotNull
     private boolean voided;
@@ -86,5 +86,13 @@ public class User {
     public User setVoided(boolean voided) {
         this.voided = voided;
         return this;
+    }
+
+    public List<Task> getTaskList() {
+        return taskList;
+    }
+
+    public void setTaskList(List<Task> taskList) {
+        this.taskList = taskList;
     }
 }
