@@ -1,11 +1,14 @@
 package com.faison.services;
 
 import com.faison.DAO.UserDAO;
+import com.faison.models.Task;
 import com.faison.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class UserService {
@@ -39,6 +42,12 @@ public class UserService {
      */
     public User findByEmail(String email) {
         return userDAO.findByEmail(email);
+    }
+
+    public List<Task> findTasksByUser(long userId) {
+        User user = userDAO.findByUserId(userId);
+        List<Task> taskList = user.getTaskList();
+        return taskList;
     }
 
     public User findById(long userId) {

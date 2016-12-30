@@ -40,11 +40,6 @@ public class TaskService {
         return taskDAO.findByCompletedIsFalse(pageable);
     }
 
-    /*public Page<Task> findTasksByOwnerId(long ownerId, Pageable pageable) {
-        User user = userService.findById(ownerId);
-        return taskDAO.findByOwner(ownerId, pageable);
-    }*/
-
     public Task update(Task task) {
         if (!exists(task.getTaskId())) {
             return null;

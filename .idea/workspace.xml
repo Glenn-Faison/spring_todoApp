@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0edbd6a7-205d-43e9-85a4-2baf97e78e36" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/faison/models/User.class" afterPath="$PROJECT_DIR$/target/classes/com/faison/models/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/faison/restcontrollers/TasksRestController.class" afterPath="$PROJECT_DIR$/target/classes/com/faison/restcontrollers/TasksRestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/faison/services/TaskService.class" afterPath="$PROJECT_DIR$/target/classes/com/faison/services/TaskService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/faison/services/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/faison/services/UserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/faison/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/faison/models/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java" afterPath="$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
     </list>
     <ignored path="spring-todo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +33,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/DAO/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="30">
+              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setEmail#0;class#User#0" expanded="false" />
@@ -38,23 +56,6 @@
                 <element signature="method#setPhoneNumber#0;class#User#0" expanded="false" />
                 <element signature="method#setUsername#0;class#User#0" expanded="false" />
                 <element signature="method#setVoided#0;class#User#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/models/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding>
-                <element signature="method#Task#0;class#Task#0" expanded="false" />
-                <element signature="method#setTaskId#0;class#Task#0" expanded="false" />
-                <element signature="method#setDescription#0;class#Task#0" expanded="false" />
-                <element signature="method#setCompleted#0;class#Task#0" expanded="false" />
-                <element signature="method#setAlertDate#0;class#Task#0" expanded="false" />
-                <element signature="method#setOwner#0;class#Task#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -87,12 +88,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/faison/DAO/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/UsersRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faison/DAO/TaskDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faison/models/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faison/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -568,9 +569,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -613,6 +614,24 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -639,9 +658,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,9 +738,10 @@
         <state relative-caret-position="75">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="method#create#0;class#UserService#0" expanded="false" />
             <element signature="method#findAll#0;class#UserService#0" expanded="false" />
             <element signature="docComment;method#findByEmail#0;class#UserService#0" expanded="false" />
+            <element signature="method#findTasksByUser#0;class#UserService#0" expanded="false" />
             <element signature="method#findByUsername#0;class#UserService#0" expanded="false" />
             <element signature="method#update#0;class#UserService#0" expanded="false" />
           </folding>
@@ -791,9 +809,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="method#create#0;class#UserService#0" expanded="false" />
             <element signature="method#findAll#0;class#UserService#0" expanded="false" />
             <element signature="docComment;method#findByEmail#0;class#UserService#0" expanded="false" />
+            <element signature="method#findTasksByUser#0;class#UserService#0" expanded="false" />
             <element signature="method#findByUsername#0;class#UserService#0" expanded="false" />
             <element signature="method#update#0;class#UserService#0" expanded="false" />
           </folding>
@@ -872,9 +891,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -930,6 +947,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -969,9 +987,10 @@
         <state relative-caret-position="75">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="method#create#0;class#UserService#0" expanded="false" />
             <element signature="method#findAll#0;class#UserService#0" expanded="false" />
             <element signature="docComment;method#findByEmail#0;class#UserService#0" expanded="false" />
+            <element signature="method#findTasksByUser#0;class#UserService#0" expanded="false" />
             <element signature="method#findByUsername#0;class#UserService#0" expanded="false" />
             <element signature="method#update#0;class#UserService#0" expanded="false" />
           </folding>
@@ -1017,9 +1036,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="method#create#0;class#UserService#0" expanded="false" />
             <element signature="method#findAll#0;class#UserService#0" expanded="false" />
             <element signature="docComment;method#findByEmail#0;class#UserService#0" expanded="false" />
+            <element signature="method#findTasksByUser#0;class#UserService#0" expanded="false" />
             <element signature="method#findByUsername#0;class#UserService#0" expanded="false" />
             <element signature="method#update#0;class#UserService#0" expanded="false" />
           </folding>
@@ -1094,91 +1114,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/DAO/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/UsersRestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="73" column="80" selection-start-line="73" selection-start-column="80" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/DAO/TaskDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="method#create#0;class#TaskService#0" expanded="false" />
-            <element signature="method#findByDescription#0;class#TaskService#0" expanded="false" />
-            <element signature="method#update#0;class#TaskService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="76" column="80" selection-start-line="76" selection-start-column="80" selection-end-line="76" selection-end-column="80" />
-          <folding>
-            <element signature="method#createTask#0;class#TasksRestController#0" expanded="false" />
-            <element signature="method#getTasks#0;class#TasksRestController#0" expanded="false" />
-            <element signature="method#getTask#0;class#TasksRestController#0" expanded="false" />
-            <element signature="method#updateTask#0;class#TasksRestController#0" expanded="false" />
-            <element signature="method#deleteTask#0;class#TasksRestController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#findAll#0;class#UserService#0" expanded="false" />
-            <element signature="docComment;method#findByEmail#0;class#UserService#0" expanded="false" />
-            <element signature="method#findByUsername#0;class#UserService#0" expanded="false" />
-            <element signature="method#update#0;class#UserService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setEmail#0;class#User#0" expanded="false" />
-            <element signature="method#setUserId#0;class#User#0" expanded="false" />
-            <element signature="method#setPassword#0;class#User#0" expanded="false" />
-            <element signature="method#setPhoneNumber#0;class#User#0" expanded="false" />
-            <element signature="method#setUsername#0;class#User#0" expanded="false" />
-            <element signature="method#setVoided#0;class#User#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,6 +1133,88 @@
             <element signature="method#setAlertDate#0;class#Task#0" expanded="false" />
             <element signature="method#setOwner#0;class#Task#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/DAO/TaskDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="method#createTask#0;class#TasksRestController#0" expanded="false" />
+            <element signature="method#getTasks#0;class#TasksRestController#0" expanded="false" />
+            <element signature="method#getTasksByUser#0;class#TasksRestController#0" expanded="false" />
+            <element signature="method#getTask#0;class#TasksRestController#0" expanded="false" />
+            <element signature="method#updateTask#0;class#TasksRestController#0" expanded="false" />
+            <element signature="method#deleteTask#0;class#TasksRestController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+          <folding>
+            <element signature="method#create#0;class#UserService#0" expanded="false" />
+            <element signature="method#findAll#0;class#UserService#0" expanded="false" />
+            <element signature="docComment;method#findByEmail#0;class#UserService#0" expanded="false" />
+            <element signature="method#findTasksByUser#0;class#UserService#0" expanded="false" />
+            <element signature="method#findByUsername#0;class#UserService#0" expanded="false" />
+            <element signature="method#update#0;class#UserService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="method#create#0;class#TaskService#0" expanded="false" />
+            <element signature="method#findByDescription#0;class#TaskService#0" expanded="false" />
+            <element signature="method#update#0;class#TaskService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setEmail#0;class#User#0" expanded="false" />
+            <element signature="method#setUserId#0;class#User#0" expanded="false" />
+            <element signature="method#setPassword#0;class#User#0" expanded="false" />
+            <element signature="method#setPhoneNumber#0;class#User#0" expanded="false" />
+            <element signature="method#setUsername#0;class#User#0" expanded="false" />
+            <element signature="method#setVoided#0;class#User#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/DAO/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
