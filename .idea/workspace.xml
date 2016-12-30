@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0edbd6a7-205d-43e9-85a4-2baf97e78e36" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/faison/models/User.class" afterPath="$PROJECT_DIR$/target/classes/com/faison/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/faison/restcontrollers/TasksRestController.class" afterPath="$PROJECT_DIR$/target/classes/com/faison/restcontrollers/TasksRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/faison/services/TaskService.class" afterPath="$PROJECT_DIR$/target/classes/com/faison/services/TaskService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/faison/services/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/faison/services/UserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/faison/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/faison/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java" afterPath="$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java" afterPath="$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
     <ignored path="spring-todo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,21 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/DAO/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="105">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setEmail#0;class#User#0" expanded="false" />
@@ -92,8 +76,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/faison/services/TaskService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faison/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/faison/restcontrollers/TasksRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/faison/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/faison/models/User.java" />
       </list>
     </option>
   </component>
@@ -1186,22 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setEmail#0;class#User#0" expanded="false" />
-            <element signature="method#setUserId#0;class#User#0" expanded="false" />
-            <element signature="method#setPassword#0;class#User#0" expanded="false" />
-            <element signature="method#setPhoneNumber#0;class#User#0" expanded="false" />
-            <element signature="method#setUsername#0;class#User#0" expanded="false" />
-            <element signature="method#setVoided#0;class#User#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -1215,6 +1183,22 @@
         <state relative-caret-position="240">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/faison/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setEmail#0;class#User#0" expanded="false" />
+            <element signature="method#setUserId#0;class#User#0" expanded="false" />
+            <element signature="method#setPassword#0;class#User#0" expanded="false" />
+            <element signature="method#setPhoneNumber#0;class#User#0" expanded="false" />
+            <element signature="method#setUsername#0;class#User#0" expanded="false" />
+            <element signature="method#setVoided#0;class#User#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

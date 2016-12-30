@@ -24,7 +24,7 @@ public class User {
     @Column(nullable = false, unique = true)
     private String username;
 
-    @OneToMany(orphanRemoval = true, cascade = CascadeType.REMOVE)
+    @OneToMany(orphanRemoval = true, cascade = CascadeType.ALL, targetEntity = Task.class)
     private List<Task> taskList;
 
     @NotNull
