@@ -1,4 +1,4 @@
-package com.faison.models;
+package ReSTAPI.models;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

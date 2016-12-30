@@ -1,6 +1,6 @@
-package com.faison.DAO;
+package ReSTAPI.DAO;
 
-import com.faison.models.Task;
+import ReSTAPI.models.Task;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;

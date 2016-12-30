@@ -1,8 +1,8 @@
-package com.faison.restcontrollers;
+package ReSTAPI.restcontrollers;
 
-import com.faison.models.Task;
-import com.faison.services.TaskService;
-import com.faison.services.UserService;
+import ReSTAPI.models.Task;
+import ReSTAPI.services.TaskService;
+import ReSTAPI.services.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

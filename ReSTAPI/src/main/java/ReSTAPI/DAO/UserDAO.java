@@ -1,14 +1,16 @@
-package com.faison.DAO;
+package ReSTAPI.DAO;
 
-import com.faison.models.User;
+import ReSTAPI.models.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
 
-public interface UserDAO extends PagingAndSortingRepository<User, String> {
+@Repository
+public interface UserDAO extends PagingAndSortingRepository<User, Long> {
 
-    Page<User> findByUsernameLike(@Param("username") String username, Pageable pageable);
+    Page<User> findByUsernameLikeIgnoreCase(String username, Pageable pageable);
 
     Page<User> findAll(Pageable pageable);
 
@@ -16,7 +18,7 @@ public interface UserDAO extends PagingAndSortingRepository<User, String> {
 
     Page<User> findByVoidedIsTrue(Pageable pageable);
 
-    User findById(@Param("user_id") String userId);
+    User findByUserId(@Param("user_id") long userId);
 
-    User findByEmail(@Param("email") String email);
+    User findByEmail(String email);
 }

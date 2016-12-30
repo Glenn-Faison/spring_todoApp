@@ -1,4 +1,4 @@
-package com.faison;
+package ReSTAPI;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

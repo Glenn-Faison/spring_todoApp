@@ -1,7 +1,7 @@
-package com.faison.services;
+package ReSTAPI.services;
 
-import com.faison.DAO.TaskDAO;
-import com.faison.models.Task;
+import ReSTAPI.DAO.TaskDAO;
+import ReSTAPI.models.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
