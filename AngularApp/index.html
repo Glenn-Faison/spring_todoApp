@@ -1,0 +1,67 @@
+<html ng-app="todoApp">
+    <head>
+        <title>ToDo Application</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
+        <script type="text/javascript" src="lib/angular.js"></script>
+        <script type="text/javascript" src="services/TaskService.js"></script>
+        <script type="text/javascript" src="controllers/TaskController.js"></script>
+    </head>
+    <body ng-controller="TaskController as taskCtrl">
+        <h1>ToDo List.</h1>
+        <div>
+            <form name="myForm">
+                <input type="submit" ng-click="taskCtrl.getTasks()" value="Get Task List">&nbsp;&nbsp;
+                <input type="submit" ng-click="taskCtrl.deleteTasks()" value="Delete Selected Tasks">
+            </form>
+        </div>
+        <table>
+            <thead>
+                <td>Selected</td>
+                <td>Assignee</td>
+                <td>Task</td>
+                <td>Done?</td>
+            </thead>
+            <tbody>
+                <tr ng-class="taskCtrl.getStyle(task)" ng-repeat="task in taskCtrl.taskList">
+                    <td name="selector" 
+                        ng-click="taskCtrl.selectTask(task.taskId)">
+                        <input type="checkbox" 
+                               ng-model="taskCtrl.selectedIndices[task.taskId]"/>
+                    </td>
+                    <td ng-bind="task.owner.username"></td>
+                    <td ng-bind="task.description"></td>
+                    <td>
+                        <input type="checkbox" ng-model="task.completed"/>
+                        <span ng-bind="task.completed"></span>
+                    </td>
+                </tr>
+                <form name="postForm">
+                    <tr>
+                        <td>
+                            <input type="submit" 
+                                value="Add Task" 
+                                ng-click="taskCtrl.addTask()" 
+                                ng-disabled="postForm.$invalid">
+                        </td>
+                        <td>
+                            <input type="text" 
+                                placeholder="Assignee" 
+                                ng-model="taskCtrl.newTask.owner.userId" 
+                                required/>
+                        </td>
+                        <td>
+                            <input type="text" 
+                                placeholder="Task description" 
+                                ng-model="taskCtrl.newTask.description" 
+                                required/>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="isDone" ng-model="taskCtrl.newTask.completed"/>
+                            <span ng-bind="isDone"></span>
+                        </td>
+                    </tr>
+                </form>
+            </tbody>
+        </table>
+    </body>
+</html>

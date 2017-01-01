@@ -1,0 +1,10 @@
+.isEven{
+    background: lightblue;
+}
+.isOdd{
+    background: blue;
+}
+table{
+    margin: 0 auto;
+    width: 99%;
+}
