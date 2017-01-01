@@ -1,5 +1,21 @@
 angular.module('todoApp', [])
-.controller('TaskController', ['$http', function($http) {
+.factory('TaskService', ['$http', function($http) {
+    return {
+        getAllTasks: function() {
+            return $http.get("http://localhost:8080/api/v1/tasks");
+        },
+        getUserByUserId: function(userId) {
+            return $http.get("http://localhost:8080/api/v1/users/" + userId);
+        },
+        createTask: function(newTask) {
+            return $http.post("http://localhost:8080/api/v1/tasks", newTask)
+        },
+        deleteTaskByTaskId: function(userId, taskId) {
+            return $http.delete("http://localhost:8080/api/v1/users/" + userId + "/tasks/" + i);
+        }
+    };
+}])
+.controller('TaskController', ['TaskService', function(TaskService) {
     var self = this;
     self.taskList = [];
     self.selectedIndices = [];
@@ -14,7 +30,7 @@ angular.module('todoApp', [])
     };
     
     self.getTasks = function() {
-        $http.get("http://localhost:8080/api/v1/tasks")
+        TaskService.getAllTasks()
             .then(function(result) {
                 self.taskListPage = result.data;
                 self.taskList = self.taskListPage.content;
@@ -33,10 +49,10 @@ angular.module('todoApp', [])
     };
 
     self.addTask = function() {
-        $http.get("http://localhost:8080/api/v1/users/" + self.newTask.owner.userId)
+        TaskService.getUserByUserId(self.newTask.owner.userId)
             .then(function(result) {
                 self.newTask.owner = result.data;
-                $http.post("http://localhost:8080/api/v1/tasks", self.newTask)
+                TaskService.createTask(self.newTask)
                     .then(self.getTasks);
             })
             .then(function() {
@@ -46,13 +62,11 @@ angular.module('todoApp', [])
 
     self.selectTask = function(index) {
         self.selectedIndices[index] = !self.selectedIndices[index];
-        console.log(self.selectedIndices[index]);
     };
 
     self.deleteTasks = function() {
         for (i in self.selectedIndices) {
-            console.log(i);
-            $http.delete("http://localhost:8080/api/v1/users/1/tasks/" + i)
+            TaskService.deleteTaskByTaskId(1, i)
                 .then(self.getTasks);
         }
     };
