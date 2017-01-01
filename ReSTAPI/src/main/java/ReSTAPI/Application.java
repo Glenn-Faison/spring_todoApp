@@ -36,11 +36,13 @@ public class Application {
                 .setPhoneNumber("(+237) 675-611-933")
                 .setUsername("Glenn Faison");
         userDAO.save(user);
+        user = new User();
         user.setEmail("achabill12@gmail.com")
                 .setPassword("1111")
                 .setPhoneNumber("(+237) 679-873-401")
                 .setUsername("Bill Acha");
         userDAO.save(user);
+        user = new User();
         user.setEmail("tarkangmcshan@gmail.com")
                 .setPassword("1111")
                 .setPhoneNumber("(+237) 677-661-303")

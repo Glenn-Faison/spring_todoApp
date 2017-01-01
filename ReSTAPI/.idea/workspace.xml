@@ -25,8 +25,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReSTAPI/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+            <state relative-caret-position="247">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setEmail#0;class#User#0" expanded="false" />
@@ -59,12 +59,11 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReSTAPI/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
               <folding>
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
                 <element signature="method#createDummyUsers#0;class#Application#0" expanded="false" />
+                <element signature="method#swaggerSettings#0;class#Application#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,8 +72,8 @@
       <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReSTAPI/DAO/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="270">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -115,9 +114,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/faison/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/restAPI/restcontrollers/UsersRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReSTAPI/DAO/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReSTAPI/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReSTAPI/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReSTAPI/models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReSTAPI/Application.java" />
       </list>
     </option>
   </component>
@@ -564,7 +563,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662538" sideWeight="0.5030303" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32662538" sideWeight="0.4969697" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32662538" sideWeight="0.4969697" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -810,9 +809,8 @@
         <state relative-caret-position="270">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
             <element signature="method#createDummyUsers#0;class#Application#0" expanded="false" />
+            <element signature="method#swaggerSettings#0;class#Application#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -868,9 +866,8 @@
         <state relative-caret-position="111">
           <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
           <folding>
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
             <element signature="method#createDummyUsers#0;class#Application#0" expanded="false" />
+            <element signature="method#swaggerSettings#0;class#Application#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1038,9 +1035,8 @@
         <state relative-caret-position="270">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
             <element signature="method#createDummyUsers#0;class#Application#0" expanded="false" />
+            <element signature="method#swaggerSettings#0;class#Application#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1157,20 +1153,19 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/restAPI/restcontrollers/UsersRestController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReSTAPI/DAO/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="270">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReSTAPI/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        <state relative-caret-position="300">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
           <folding>
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
             <element signature="method#createDummyUsers#0;class#Application#0" expanded="false" />
+            <element signature="method#swaggerSettings#0;class#Application#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1191,8 +1186,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReSTAPI/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+        <state relative-caret-position="247">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setEmail#0;class#User#0" expanded="false" />
